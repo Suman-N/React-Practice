@@ -4,6 +4,7 @@ import './App.css'
 function App() {
   const [color, setColor] = useState("olive")
 
+
   return (
 
     <div className="w-full h-screen duration-200" style={{ backgroundColor: color }}>
@@ -18,6 +19,7 @@ function App() {
           <button className='outline-none px-4 py-2 rounded-full' style={{ backgroundColor: "Purple" }} onClick={() => setColor("Purple")}>Purple</button>
           <button className='outline-none px-4 py-2 rounded-full' style={{ backgroundColor: "Pink" }} onClick={() => setColor("Pink")}>Pink</button>
         </div>
+        <p id="demo"></p>
       </div>
     </div>
 
